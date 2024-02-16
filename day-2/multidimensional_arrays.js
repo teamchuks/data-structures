@@ -9,7 +9,7 @@ Multi2DArrays[0][0] = "X"; //updating the value in the array.
 Multi2DArrays[2][1] = "XX"; //updating the value in the array.
 Multi2DArrays[1][2] = "XXX"; //updating the value in the array.
 
-// loop through the array
+// loop through the multi2DArray
 for (const newArray of Multi2DArrays) {
   const newArrayString = newArray.join(" "); //joins the items together
   console.log(newArrayString);
@@ -33,4 +33,4 @@ const states = [
 ];
 console.log(states);
 
-states[2][1][1] = "item-1";
+states[2][1][1] = "item-1"; //updating the value in the array.

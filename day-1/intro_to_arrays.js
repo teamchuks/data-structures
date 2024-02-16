@@ -1,5 +1,13 @@
 const favouriteColors = ["purple", "blue", "yellow", "red", "orange"];
-// console.log(favouriteColors);
+console.log(favouriteColors);
+
+//accessing an index
+console.log(favouriteColors[2]);
+
+favouriteColors[2] = "newColor"; //updating an array
+favouriteColors[0] = "newColor"; //updating an array
+favouriteColors[1] = "newColor"; //updating an array
+console.log(favouriteColors);
 
 // === ARRAY METHODS ==
 
@@ -18,3 +26,12 @@ console.log(favouriteColors);
 // removing a color from the array
 favouriteColors.shift(); //removes the first item.
 console.log(favouriteColors);
+
+// adding items to empty array.
+const newArray = [];
+
+// use forEach loop to push elements into the new array.
+favouriteColors.forEach((newColors) => {
+  newArray.push(newColors);
+});
+console.log(newArray);
