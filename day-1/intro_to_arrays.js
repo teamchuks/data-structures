@@ -29,9 +29,11 @@ console.log(favouriteColors);
 
 // adding items to empty array.
 const newArray = [];
-
-// use forEach loop to push elements into the new array.
 favouriteColors.forEach((newColors) => {
   newArray.push(newColors);
 });
 console.log(newArray);
+
+const emptyArray = [];
+emptyArray.push("boy", "girl", "fan");
+console.log(emptyArray);
