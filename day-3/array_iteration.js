@@ -35,11 +35,11 @@ console.log(allNumbers);
 
 // using the for of loop method
 const arr = [23, 34, 77, 99, 324];
-let sum = 0;
+let calSum = 0;
 for (const newSum of arr) {
-  sum = sum + newSum;
+  calSum = calSum + newSum;
 }
-console.log(sum);
+console.log(calSum);
 
 
 // const digits = [4, 4, 1, 8, 3, 9, 0, 0, 5];

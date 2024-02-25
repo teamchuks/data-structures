@@ -13,7 +13,7 @@ console.log(person);
 const { name, age, country } = person;
 console.log(`The name of the man is ${name}`);
 
-// === creating a function
+// === creating a function that accepts the object as an input
 function getUserInfo(user) {
   const { name, age } = user;
 
